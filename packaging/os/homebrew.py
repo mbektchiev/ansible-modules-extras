@@ -175,6 +175,7 @@ class Homebrew(object):
         \+                  # plusses
         -                   # dashes
         :                   # colons (for URLs)
+        @                   # at-sign
     '''
 
     INVALID_PATH_REGEX        = _create_regex_group(VALID_PATH_CHARS)
